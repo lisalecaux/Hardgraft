@@ -1,0 +1,575 @@
+body {
+	font-family: "acumin-pro",sans-serif;
+	font-size: 18px;
+	color: #88847F;
+	line-height: 1.44;
+	margin:0;	
+}
+
+.title {
+	font-size: 48px;
+	line-height: 1.2;
+	font-family: 'Playfair Display', serif;
+	color: #2e2926;
+	font-weight: 400;
+    text-align: center;
+}
+
+/* Header */
+
+.nav{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+    float: right;
+}
+
+.nav__el{
+	float: left;
+	margin-left: 40px;
+}
+.nav__el a{
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight: 700;
+	color: #2D2825;
+	text-decoration:none;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	opacity: .4;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+header{
+	position:relative;
+	height: 80px;	
+}
+
+.logo{
+	position: absolute;
+	top: 15px;
+	left: 0;
+	margin: 0;
+}
+
+.logo a {
+	background-image: url(Images/logo-hardgraft.png);
+	background-repeat: no-repeat;
+	width: 77px;
+	height: 50px;
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.btn{
+	border: none;
+	padding: 0;
+	background: none;
+	cursor: pointer;
+}
+
+.button__cart{
+    height: 40px;
+    width: 67px;
+    cursor: pointer;
+    background-color: #d9c6ac;
+    color: #2D2825;
+    font-weight: bold;
+    font-family: "acumin-pro",sans-serif;
+	font-size: 18px;
+    top: 30px;
+    right: 30px;
+    border-radius:4px;
+	border: none;
+   }
+
+.img__cart{ 
+    background: url(Images/cart.png) no-repeat center;
+    background-position: 15px center;
+} 
+
+/* Banner */
+.container--banner{
+    padding-right: 60px;
+    width: 580px;
+	}
+
+.section--banner { 
+	background: url(Images/banner.png) no-repeat right center;
+    height: 390px; 
+    position: relative;
+    bottom:  60px  
+}
+
+.title--allproducts{
+    position: relative;
+    top: 90px;
+}
+
+.title--quote{
+	font-size: 30px;
+	font-style: italic;
+	color: rgba(46,41,38,.8);
+	font-weight: normal;
+    position: relative;
+    top: 70px;
+    color: #8a8886;
+}
+.title--section{
+    display: block;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.title--section:after{
+    content: "";
+    display: block;
+    width: 53px;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    padding-bottom:  40px;
+    transform: translateX(-50%);
+    background: url(Images/bg-nav.png)repeat-x;
+}
+
+.title--section__menu{
+    display: block;
+    position: relative;
+    padding-bottom: 40px;
+}
+.title--section__menu:after{
+    content: "";
+    display: block;
+    width: 70px;
+    position: absolute;
+    left: 18%;
+    bottom: -50px;
+    padding-bottom:  40px;
+    transform: translateX(-50%);
+    background: url(Images/bg-nav.png)repeat-x;
+}
+	
+.title--bags{
+    position: relative;
+    bottom: 110px;
+}
+
+.section--main{
+	background: #FAF8F6;
+    position: relative;
+    bottom:  140px;
+	padding: 100px 0 0px 0;
+	height: 640px;
+	
+}
+
+.section__main--leather{
+	background: url(Images/bg-bag.png) no-repeat right bottom #FAF8F6;
+    position: relative;
+    bottom:  60px;
+	height: 730px;
+	left: 250px;
+	width: 1099px;
+}
+.section__main--technology{
+	background: url(Images/bg-footer.png) no-repeat left bottom #FAF8F6;
+    position: relative;
+	height: 730px;
+	width: 1099px;
+	top: 20px;
+	left:250px;
+}
+.section__main--footwear{
+	background: #FAF8F6;
+    position: relative;
+	height: 400px;
+	width: 1099px;
+	top: 100px;
+	left:250px;
+}
+.section__main--eyewear{
+	background: #FAF8F6;
+    position: relative;
+	height: 400px;
+	width: 1099px;
+	top: 180px;
+	left:250px;
+}
+.background__menu{
+	background-color: #fff;
+    position: relative;
+    width: 250px;
+    height: 1200px;
+    right: 40px; 
+	bottom: 140px;
+	border-right: #abaaa9 px;
+}
+.link__menu{
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+	color: #2e2926;
+	font-size: 18px;
+	position: relative;
+	top: 60px;
+	right: 25px;
+}
+
+.link__menu--bag{
+	color: #88847F;
+	position: relative;
+	top: 90px;
+}
+
+.link__menu--leather{
+	color: #88847F;
+	position: relative;
+	top: 120px;
+}
+
+.link__menu--technology{
+	color: #88847F;
+	position: relative;
+	top: 150px;
+}
+
+.link__menu--footwear{
+	color: #88847F;
+	position: relative;
+	top: 180px;
+}
+
+.link__menu--eyewear{
+	color: #88847F;
+	position: relative;
+	top: 210px;
+}
+
+.link__menu--options{
+	position: relative;
+	top: 270px;
+}
+
+.link__menu--colors{	
+	color: #88847F;
+	position: relative;
+	top: 300px
+	
+}
+.link__menu--price{
+	color: #88847F;
+	position: relative;
+	top: 500px;
+}
+
+.img__brown{
+	position: relative;
+	top: 310px;
+	left: 16px;
+	width:  30px;
+	height: 30px;
+}
+.img__brown--black{
+	top: 280px;
+	left: 80px;
+}
+.img__brown--grey{
+	top: 250px;
+	left: 140px;
+}
+.img__brown--blue{
+	top: 290px;
+	left: 50px;
+}
+.img__brown--green{
+	top: 260px;
+	left: 110px;
+}
+.text__brown{
+	font-size: 12px;
+	font-style: italic;
+	text-decoration: underline;
+	position: relative;
+	width: 35px;
+	top: 180px;
+	left:12px;
+}
+.text__brown--black{
+	left: 80px;
+	top:150px
+}
+.text__brown--grey{
+	top: 120px;
+	left: 140px;
+}
+.text__brown--blue{
+	top:160px;
+	left: 50px;
+}
+.text__brown--green{
+	top:130px;
+	left: 108px;
+}
+/* Products */
+
+.product{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.product__el{
+	width: 305px;
+	position: relative;
+	bottom:1280px;
+	left: 280px;
+	height: 280px;
+	list-style-type:none;
+}
+
+.product__el:nth-child(3n+2){
+	margin-right: 0;
+}
+.product__info{
+	background-color: #fff;
+    position: relative;
+	bottom: 27px;
+	height: 85px;
+}
+.product__el--5050{
+	position: relative;
+	bottom:1560px;
+	left: 620px;	
+}
+.product__el--holdall{
+	position: relative;
+	bottom:1840px;
+	left: 960px;	
+}
+.product__el--backpack{
+	position: relative;
+	bottom:1800px;
+	left: 280px;	
+}
+
+.product__el--wristpack{
+	position: relative;
+	bottom:2080px;
+	left: 620px;	
+}
+.product__el--overnightbag{
+	position: relative;
+	bottom:2360px;
+	left: 960px;	
+}
+.product__el--blendcamera{
+	position: relative;
+	bottom: 80px;
+	left: 30px;
+}
+.product__el--zipbifold{
+	position: relative;
+	bottom: 360px;
+	left: 370px
+}
+.product__el--zippassport{
+	position: relative;
+	bottom: 640px;
+	left: 710px
+}
+.product__el--bifoldwallet{
+	position: relative;
+	bottom: 600px;
+	left: 30px
+}
+.product__el--zippouch{
+	position: relative;
+	bottom: 880px;
+	left: 370px
+}
+.product__el--slidecamera{
+	position: relative;
+	bottom: 1160px;
+	left: 710px
+}
+.shadow
+{
+  -moz-box-shadow: 4px 4px 10px #eeedeb;  
+  -webkit-box-shadow: 4px 4px 10px #eeedeb;  
+  box-shadow: 10px 10px 10px #eeedeb;
+}
+.titlesans a{
+	font-family: "acumin-pro",sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #2D2825;
+	line-height: 1.2;
+	position: relative;
+	top:10px;
+	left: 20px;
+}
+
+.btn__whishlist{
+	color: #9b9795;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: url(Images/icon-heart.png) 
+	left center no-repeat;
+	padding-left: 30px;
+	height: 15px;
+	display: inline-block;
+	position: relative;
+	bottom: 5px;
+	left: 20px;
+}
+.btn__whishlist--red{
+	background: url(Images/icon-heart-full.png) left center no-repeat;
+	color: #ED1433;
+	
+}
+.button__el{
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 25px;
+    width: 55px;
+    cursor: pointer;
+    background-color: #d9c6ac;
+    color: #2D2825;
+    font-weight: bold;
+    font-family: "acumin-pro",sans-serif;
+	font-size: 11px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border-radius:5px;    
+}
+
+.button__us {
+    position: absolute;
+    color: #9b9795;
+    top: 30px;
+    right: -10px;
+    font-family: "acumin-pro",sans-serif;
+    font-size: 9px;
+    cursor: pointer;
+    width: 105px;
+    top: 40px;        
+}
+
+.col3 {
+	/* 4 col de la grille */
+	width: 374px;
+	margin: 0 39px 40px 0;
+	float: left;
+}
+.col4 {
+	/* 3 col de la grille */
+	width: 270px;
+	float: left;	
+}
+.fr { 
+    float: right;
+}
+.fl { float: left; }
+
+
+/* footer */
+
+.titlesans--up {
+	font-size: 12px;
+	color: #FFF;
+	text-transform: uppercase;
+    margin-top: 80px;
+	position: relative;
+	top:0px;
+	left:0px;
+}
+.section--footer{
+	background: url(Images/bg-footer.png)
+	no-repeat #363433 70% bottom;
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+	position: relative;
+	top: 180px;
+}
+.footer__el a{
+	color: #fff;
+	text-decoration: none; 
+    width: 374px; 
+	float: left;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+}
+.footer__el--hardgraft{
+    position: relative;
+    bottom: 75px;
+   left: 200px;     
+}
+.footer__el--faq{
+    position: relative;
+    bottom: 75px;
+    left: 200px;     
+}
+.footer__el--newsletter{
+    position: relative;
+    top:15px; 
+}
+.button__newsletter {
+    width: 270px;
+    height: 47px; 
+    background-color: #484745;
+    border-bottom:  1px ridge #c3c1bf;
+    position: relative;
+    top: 20px;
+}
+.button__newsletter--send {
+    position: relative;
+    width: 90px;
+    height: 52px;
+    right: 6px;
+	cursor: pointer;
+}
+input::-webkit-input-placeholder {
+  font-family:  'Playfair Display', serif;
+    position: relative;
+    left: 20px;
+}
+
+input[type=submit] {
+    font-family: "acumin-pro",sans-serif;
+    font-size: 12px;
+    color: #c3c1bf;
+}
+
+.footer__el--contact{
+    color: #fff;
+    width: 270px;
+    float: right;
+    text-decoration:none;
+    position: relative;
+    top:10px;
+}
+
+.credit {
+	clear: both;
+	height: 37px;
+	line-height: 37px;
+	background: #2e2926;
+}
+
+.wmgd{
+    text-decoration: none;
+	color: inherit;
+}
+.dwm{
+    text-decoration: none;
+	color: inherit;
+}
+
